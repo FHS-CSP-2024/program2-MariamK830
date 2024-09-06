@@ -50,8 +50,9 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
-
-
+name = input("What is your name?\n\t")
+print("Hello " +name)
+print("Hello " +name)
 
 
 ## Problem 2 ##
@@ -59,6 +60,9 @@
 # - Asks for the user's name
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
+
+name= input ("What is your name?")
+print("!Hello " +name + "!Have a good day " +name + "!")
 
 
 ## Problem 3 ##
@@ -70,12 +74,20 @@
 #   - Last name: Sanders
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
-
+first=input("What is your first name?")
+last=input("What is your last name?")
+address=input("What is your address?")
+print("First Name:" +first)
+print("Last Name:" +last)
+print("Address:" +address)
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
-
+one=input("Give a first word")
+two=input("Second word")
+three=input("Third word") 
+print("-"+one+"-"+two+"-"+three)
 
 ## Problem 5 ##
 #Please write a script that: 
@@ -88,3 +100,7 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+name=input("Give me a name")
+year=input("Give me a year")
+print("Once upon a time "+name+" was a an amazing person, who was born in the year "+year)
